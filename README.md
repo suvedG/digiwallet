@@ -1,16 +1,7 @@
-# dwalletdemo
+# How to use feature flags in dart (Flutter) application?
 
-A new Flutter project.
+A project demonstrating how to integrate configcat dart sdk in a Flutter Project.
 
-## Getting Started
+## About the app
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is a pet project used to explain how effecient and hasslefree it is to setup configcat SDK in dart.  
