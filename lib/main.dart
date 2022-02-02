@@ -7,7 +7,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   //Initialize ConfigCatClient with your SDK Key
   configCatClient = ConfigCatClient.get(
-      sdkKey: "bJnZCNlFH0OIQ8hHYSBFnQ/UgYJJj0RRkuBo2e9A-P5ug",
+      sdkKey: "bJnZCNlFH0OIQ8hHYSBFnQ/fA_VBPWV6EW4UxriKcXOAQ",
       options: ConfigCatOptions(
         mode: PollingMode.autoPoll(),
           logger: ConfigCatLogger(level: LogLevel.debug)));
@@ -29,6 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Digi Wallet',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
